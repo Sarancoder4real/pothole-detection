@@ -12,6 +12,19 @@ It processes an input image and outputs detection results in **JSON format**.
   - `frame_id`
   - `timestamp`
   - `detections` (list of detected objects with bounding boxes and confidence scores)
+ 
+---
+## 📂 Project Structure
+```
+pothole/
+│── detect.py          # Main detection script
+│── yolov8n.pt         # YOLOv8 model weights
+│── road.jpg           # Sample input image
+│── output.json        # Example output file
+│── requirements.txt   # Dependencies
+│── README.md          # Project documentation
+│── venv/              # Virtual environment (ignored in .gitignore)
+```
 
 ---
  How to Run
