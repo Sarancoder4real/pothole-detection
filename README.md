@@ -1,23 +1,48 @@
-# Pothole Detection using YOLOv8
+# **Pothole Detection using YOLOv8**
 
-##  Description
-This project detects potholes from road images using the YOLOv8 model and outputs the results in a structured **JSON format**.
-
-
-##  Features
-- Detects potholes in road images.
-- Outputs results with:
-  - Frame ID
-  - Timestamp
-  - Detection details (class, confidence, bounding box coordinates)
-- Saves results to `output.json`.
+This project demonstrates a **pothole detection pipeline** using **YOLOv8** for object detection.  
+It processes an input image and outputs detection results in **JSON format**.
 
 ---
 
-##  Installation
-Clone this repository and install the dependencies:
+## **📌 Features**
+- ✅ Uses **Ultralytics YOLOv8** for object detection  
+- ✅ Accepts an input image (e.g., `road.jpg`)  
+- ✅ Outputs a **structured JSON file** with:
+  - `frame_id`
+  - `timestamp`
+  - `detections` (list of detected objects with bounding boxes and confidence scores)
+
+---
+ How to Run
+
+Run detection on an image:
+py detect.py road.jpg
+
+
+ Sample Output (JSON)
+
+{
+  "frame_id": 1,
+  "timestamp": "2025-09-04T01:30:00",
+  "detections": [
+    {
+      "label": "pothole",
+      "confidence": 0.91,
+      "bbox": [100, 200, 300, 400]
+    }
+  ]
+}
+
+---
+
+## **✅ Requirements**
+Create a virtual environment and install dependencies:
 
 ```bash
-git clone https://github.com/Sarancoder4real/pothole-detection.git
-cd pothole-detection
+python -m venv venv
+venv\Scripts\activate      
 pip install -r requirements.txt
+
+
+
