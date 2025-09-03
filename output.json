@@ -1,0 +1,126 @@
+{
+  "frame_id": 1,
+  "timestamp": "2025-09-03T20:23:56.204936",
+  "detections": [
+    {
+      "class": "pothole",
+      "confidence": 0.8504720330238342,
+      "bounding_box": {
+        "xmin": 292,
+        "ymin": 75,
+        "xmax": 417,
+        "ymax": 246
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.8121053576469421,
+      "bounding_box": {
+        "xmin": 164,
+        "ymin": 75,
+        "xmax": 250,
+        "ymax": 181
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.7557844519615173,
+      "bounding_box": {
+        "xmin": 550,
+        "ymin": 35,
+        "xmax": 614,
+        "ymax": 103
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.7379127740859985,
+      "bounding_box": {
+        "xmin": 783,
+        "ymin": 36,
+        "xmax": 848,
+        "ymax": 92
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.720821738243103,
+      "bounding_box": {
+        "xmin": 299,
+        "ymin": 29,
+        "xmax": 402,
+        "ymax": 196
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.7053701281547546,
+      "bounding_box": {
+        "xmin": 630,
+        "ymin": 41,
+        "xmax": 688,
+        "ymax": 96
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.6726047992706299,
+      "bounding_box": {
+        "xmin": 198,
+        "ymin": 35,
+        "xmax": 250,
+        "ymax": 149
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.6602398157119751,
+      "bounding_box": {
+        "xmin": 442,
+        "ymin": 28,
+        "xmax": 562,
+        "ymax": 145
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.5741568803787231,
+      "bounding_box": {
+        "xmin": 928,
+        "ymin": 25,
+        "xmax": 1094,
+        "ymax": 124
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.42079851031303406,
+      "bounding_box": {
+        "xmin": 933,
+        "ymin": 58,
+        "xmax": 1005,
+        "ymax": 131
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.3839229345321655,
+      "bounding_box": {
+        "xmin": 1091,
+        "ymin": 41,
+        "xmax": 1199,
+        "ymax": 100
+      }
+    },
+    {
+      "class": "pothole",
+      "confidence": 0.2987312078475952,
+      "bounding_box": {
+        "xmin": 716,
+        "ymin": 48,
+        "xmax": 762,
+        "ymax": 94
+      }
+    }
+  ]
+}
